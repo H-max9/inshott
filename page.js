@@ -56,10 +56,9 @@ export default function Home() {
             <ul className="nav-links">
               <li><a href="#about" className="nav-link">About</a></li>
               <li><a href="#features" className="nav-link">Features</a></li>
-              <li><a href="#comparison" className="nav-link">Comparison</a></li>
-              <li><a href="#specs" className="nav-link">Requirements</a></li>
-              <li><a href="#install" className="nav-link">Installation</a></li>
-              <li><a href="#workflow" className="nav-link">Workflow</a></li>
+              <li><a href="/pc" className="nav-link">PC Setup</a></li>
+              <li><a href="/troubleshooting" className="nav-link">Troubleshoot</a></li>
+              <li><a href="/old-versions" className="nav-link">Old Versions</a></li>
               <li><a href="#faq" className="nav-link">FAQ</a></li>
             </ul>
           </nav>
@@ -610,6 +609,54 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Creator Resources Section */}
+        <section id="resources" className="section-padding" style={{ background: '#090608', borderTop: '1px solid var(--border-color)' }}>
+          <div className="container">
+            <div className="text-center">
+              <span className="badge">💡 Creator Handbook</span>
+              <h2 className="section-title">Essential Creator Guides & Diagnostics</h2>
+              <p className="section-desc">
+                Expand your editing workflow with our deep-dive resources. Learn to configure desktop rendering platforms, fix app glitches, or explore archive features.
+              </p>
+            </div>
+
+            <div className="grid-3" style={{ marginTop: '40px' }}>
+              <div className="card" style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+                <div className="card-icon-wrapper">💻</div>
+                <h3 className="card-title">InShot for PC Setup Guide</h3>
+                <p className="card-desc" style={{ flexGrow: 1, marginBottom: '24px' }}>
+                  Complete tutorial for running InShot on Windows 10/11 & Mac. Includes optimization guidelines for BlueStacks, LDPlayer, and NoxPlayer.
+                </p>
+                <a href="/pc" className="btn btn-secondary" style={{ width: '100%' }}>
+                  View PC Guide →
+                </a>
+              </div>
+
+              <div className="card" style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+                <div className="card-icon-wrapper">🔧</div>
+                <h3 className="card-title">Troubleshooting & Error Fixes</h3>
+                <p className="card-desc" style={{ flexGrow: 1, marginBottom: '24px' }}>
+                  Step-by-step diagnostic checklists for fixing 'App Not Installed' errors, export freezes, choppy playback, and timeline audio lag.
+                </p>
+                <a href="/troubleshooting" className="btn btn-secondary" style={{ width: '100%' }}>
+                  Diagnose Errors →
+                </a>
+              </div>
+
+              <div className="card" style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+                <div className="card-icon-wrapper">📁</div>
+                <h3 className="card-title">Old Versions & AI Archive</h3>
+                <p className="card-desc" style={{ flexGrow: 1, marginBottom: '24px' }}>
+                  Historic build tracking matrix comparing features across v1.65, v1.95, and the latest 2026 AI framework. Find stable legacy packages.
+                </p>
+                <a href="/old-versions" className="btn btn-secondary" style={{ width: '100%' }}>
+                  Browse Versions →
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Direct Download Section */}
         <section id="download" className="section-padding text-center" style={{ position: 'relative' }}>
           <div className="container" style={{ maxWidth: '600px' }}>
@@ -757,11 +804,10 @@ export default function Home() {
             </div>
             <div>
               <ul className="footer-nav">
-                <li><a href="#about">About</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#comparison">Free vs Pro</a></li>
-                <li><a href="#specs">System Specs</a></li>
-                <li><a href="#install">Installation</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/pc">PC Guide</a></li>
+                <li><a href="/troubleshooting">Troubleshooting</a></li>
+                <li><a href="/old-versions">Old Versions</a></li>
                 <li><a href="#faq">FAQ</a></li>
               </ul>
               <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
