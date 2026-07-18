@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = 'https://inshot-mod-c84f.vercel.app';
+  const baseUrl = 'https://inshotpromodapk.org';
   return [
     {
       url: baseUrl,
