@@ -10,7 +10,7 @@ export const metadata = {
     "inshot for mac"
   ],
   alternates: {
-    canonical: "https://inshot-mod-c84f.vercel.app/pc"
+    canonical: "https://inshotpromodapk.org/pc"
   }
 };
 

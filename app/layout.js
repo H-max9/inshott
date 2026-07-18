@@ -24,7 +24,7 @@ export const metadata = {
   openGraph: {
     title: "InShot Mod APK (2026 Edition) - Premium Unlocked, No Watermark",
     description: "Get InShot Premium Unlocked for Android, PC & iOS. Watermark-free, ad-free, 4K rendering, and unlocked AI editing tools.",
-    url: "https://inshot-mod-c84f.vercel.app",
+    url: "https://inshotpromodapk.org",
     siteName: "InShot Pro Mod",
     images: [
       {
@@ -38,7 +38,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://inshot-mod-c84f.vercel.app"
+    canonical: "https://inshotpromodapk.org"
   }
 };
 

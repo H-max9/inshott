@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://inshot-mod-c84f.vercel.app/sitemap.xml',
+    sitemap: 'https://inshotpromodapk.org/sitemap.xml',
   };
 }

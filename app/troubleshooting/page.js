@@ -10,7 +10,7 @@ export const metadata = {
     "inshot lag fix"
   ],
   alternates: {
-    canonical: "https://inshot-mod-c84f.vercel.app/troubleshooting"
+    canonical: "https://inshotpromodapk.org/troubleshooting"
   }
 };
 

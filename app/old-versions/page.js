@@ -10,7 +10,7 @@ export const metadata = {
     "inshot older builds"
   ],
   alternates: {
-    canonical: "https://inshot-mod-c84f.vercel.app/old-versions"
+    canonical: "https://inshotpromodapk.org/old-versions"
   }
 };
 
