@@ -795,3 +795,53 @@ tr:hover td {
     font-size: 0.8rem;
   }
 }
+
+/* Footer Social Media Styles */
+.footer-socials {
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  color: var(--text-gray);
+  transition: var(--transition-smooth);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.social-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.social-icon:hover {
+  transform: translateY(-4px);
+  color: var(--text-white);
+  box-shadow: 0 8px 16px rgba(255, 56, 92, 0.15);
+}
+
+.social-icon.facebook:hover {
+  background: #1877F2;
+  border-color: #1877F2;
+}
+
+.social-icon.twitter:hover {
+  background: #000000;
+  border-color: #111111;
+}
+
+.social-icon.pinterest:hover {
+  background: #E60023;
+  border-color: #E60023;
+}
+

@@ -1,6 +1,8 @@
 'use client';
 
 import React, { useState } from 'react';
+import { SOCIAL_LINKS } from '@/app/socialConfig';
+
 
 export default function Home() {
   // Tabs State for Sideloading Guides
@@ -801,6 +803,23 @@ export default function Home() {
               <p style={{ maxWidth: '400px' }}>
                 The comprehensive tutorial resource and unlocked setup guide for mobile videographers and creators. Download the 2026 Mod APK and elevate your social edits today.
               </p>
+              <div className="footer-socials">
+                <a href={SOCIAL_LINKS.facebook} target="_blank" rel="noopener noreferrer" className="social-icon facebook" aria-label="Facebook">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                  </svg>
+                </a>
+                <a href={SOCIAL_LINKS.twitter} target="_blank" rel="noopener noreferrer" className="social-icon twitter" aria-label="Twitter">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                  </svg>
+                </a>
+                <a href={SOCIAL_LINKS.pinterest} target="_blank" rel="noopener noreferrer" className="social-icon pinterest" aria-label="Pinterest">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 0 1 .083.345l-.339 1.382a.282.282 0 0 1-.397.166C5.074 18.067 4 15.969 4 13.413c0-4.3 3.125-8.249 9.01-8.249 4.73 0 8.406 3.371 8.406 7.874 0 4.7-2.962 8.479-7.074 8.479-1.382 0-2.682-.718-3.127-1.572 0 0-.683 2.602-.85 3.239-.307 1.173-1.137 2.641-1.694 3.535C9.841 23.86 10.905 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/>
+                  </svg>
+                </a>
+              </div>
             </div>
             <div>
               <ul className="footer-nav">
